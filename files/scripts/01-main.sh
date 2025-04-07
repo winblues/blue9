@@ -2,6 +2,6 @@
 
 set -exuo pipefail
 
-dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-rpm-ostree install vala-panel-appmenu
+rpm-ostree install -y vala-panel-appmenu

@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "xsettings": {
+      "/Gtk/FontName": "Charcoal 10",
+      "/Net/ThemeName": "Mac-OS-9",
+      "/Net/IconThemeName": "NineIcons",
+      "/Net/EnableEventSounds": true,
+      "/Net/EnableInputFeedbackSounds": true
+    },
+    "xfwm4": {
+      "/general/theme": "Platinum",
+      "/general/title_font": "Charcoal 9",
+      "/general/show_dock_shadow": false,
+      "/general/show_frame_shadow": false,
+      "/general/show_popup_shadow": false
+    }
+  },
+  "metadata": {
+    "name": "blue9",
+    "author": "winblues",
+    "version": 1
+  }
+}

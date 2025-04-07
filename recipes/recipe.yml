@@ -11,10 +11,16 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: rpm-ostree
+    install:
+      - audacious
+      - plymouth-plugin-script
+
   - type: script
     scripts:
       #- 00-image-info.sh
       - 01-main.sh
+      - 10-platinum9.sh
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -22,6 +28,9 @@ modules:
       install:
         - org.mozilla.firefox
     user: {} # Also add Flathub user repo, but no user packages
+
+  # Regenerate initramfs because of plymouth
+  - type: initramfs
 
 #  - type: bling
 #    install:

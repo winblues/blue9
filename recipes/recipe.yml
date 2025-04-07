@@ -19,8 +19,10 @@ modules:
   - type: script
     scripts:
       #- 00-image-info.sh
+      - 00-image-info.sh
       - 01-main.sh
       - 10-platinum9.sh
+      - 11-b00merang.sh
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)

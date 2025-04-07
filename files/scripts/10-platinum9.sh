@@ -10,6 +10,8 @@ cd Platinum9-master
 mv NineIcons /usr/share/icons
 mv Charcoal.ttf MONACO.TTF /usr/share/fonts
 
+mv OS9-wallpaper /usr/share/backgrounds/Platinum9
+
 cd boot
 unzip System8-master.zip
 cd System8-master

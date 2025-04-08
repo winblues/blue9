@@ -23,6 +23,7 @@ modules:
       - 01-main.sh
       - 10-platinum9.sh
       - 11-b00merang.sh
+      - 90-finalize.sh
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)

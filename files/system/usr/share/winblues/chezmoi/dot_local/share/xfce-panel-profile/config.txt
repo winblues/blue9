@@ -1,0 +1,37 @@
+/configver 2
+/panels [<1>]
+/panels/dark-mode true
+/panels/panel-1/icon-size uint32 16
+/panels/panel-1/length uint32 100
+/panels/panel-1/plugin-ids [<2>, <1>, <3>, <5>, <6>, <8>, <9>, <10>, <11>, <12>, <13>]
+/panels/panel-1/position 'p=6;x=0;y=0'
+/panels/panel-1/position-locked true
+/panels/panel-1/size uint32 26
+/plugins/plugin-1 'applicationsmenu'
+/plugins/plugin-1/button-icon '/usr/share/icons/NineIcons/menu/apple.png'
+/plugins/plugin-1/button-title ''
+/plugins/plugin-1/small false
+/plugins/plugin-10 'notification-plugin'
+/plugins/plugin-11 'separator'
+/plugins/plugin-11/style uint32 0
+/plugins/plugin-12 'clock'
+/plugins/plugin-12/digital-layout uint32 3
+/plugins/plugin-12/digital-time-font 'Charcoal 9'
+/plugins/plugin-12/digital-time-format '%I:%M %p'
+/plugins/plugin-13 'separator'
+/plugins/plugin-13/style uint32 0
+/plugins/plugin-2 'separator'
+/plugins/plugin-2/style uint32 0
+/plugins/plugin-3 'appmenu'
+/plugins/plugin-3/plugins/plugin-3/expand true
+/plugins/plugin-5 'separator'
+/plugins/plugin-5/expand true
+/plugins/plugin-5/style uint32 0
+/plugins/plugin-6 'systray'
+/plugins/plugin-6/known-legacy-items [<'networkmanager applet'>, <'xfce4-power-manager'>, <'ethernet network connection “enp1s0” active'>]
+/plugins/plugin-6/square-icons true
+/plugins/plugin-8 'pulseaudio'
+/plugins/plugin-8/enable-keyboard-shortcuts true
+/plugins/plugin-8/known-players 'audacious'
+/plugins/plugin-8/show-notifications true
+/plugins/plugin-9 'power-manager-plugin'

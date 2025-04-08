@@ -22,3 +22,7 @@ plymouth-set-default-theme System8
 update-mime-database /usr/share/mime
 gdk-pixbuf-query-loaders-64 --update-cache
 #gtk-update-icon-cache --force --ignore-theme-index /usr/share/icons/NineIcons
+
+# Panel config
+cd /usr/share/winblues/chezmoi/dot_local/share/xfce-panel-profile
+tar cjf /usr/share/xfce4-panel-profiles/layouts/blue9.tar.bz2 config.txt

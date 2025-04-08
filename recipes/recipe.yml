@@ -30,6 +30,10 @@ modules:
     system:
       install:
         - org.mozilla.firefox
+        - com.tomjwatson.Emote
+        - org.geany.Geany
+        - org.libreoffice.LibreOffice
+
     user: {} # Also add Flathub user repo, but no user packages
 
   # Regenerate initramfs because of plymouth

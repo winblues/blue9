@@ -23,6 +23,7 @@ modules:
       - 01-main.sh
       - 10-platinum9.sh
       - 11-b00merang.sh
+      - 22-fonts.sh
       - 90-finalize.sh
 
   - type: default-flatpaks

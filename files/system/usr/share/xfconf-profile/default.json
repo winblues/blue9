@@ -2,6 +2,8 @@
   "properties": {
     "xsettings": {
       "/Gtk/FontName": "Charcoal 10",
+      "/Gtk/ShellShowsMenubar": true,
+      "/Gtk/ShellShowsAppmenu": true,
       "/Net/ThemeName": "Mac-OS-9",
       "/Net/IconThemeName": "NineIcons",
       "/Net/EnableEventSounds": true,
@@ -13,6 +15,9 @@
       "/general/show_dock_shadow": false,
       "/general/show_frame_shadow": false,
       "/general/show_popup_shadow": false
+    },
+    "xfce4-terminal": {
+      "/font-name": "CaskaydiaMono Nerd Font 11"
     }
   },
   "metadata": {

@@ -4,6 +4,7 @@
       "/Gtk/FontName": "Charcoal 10",
       "/Gtk/ShellShowsMenubar": true,
       "/Gtk/ShellShowsAppmenu": true,
+      "/Gtk/Modules": "appmenu-gtk-module",
       "/Net/ThemeName": "Mac-OS-9",
       "/Net/IconThemeName": "NineIcons",
       "/Net/EnableEventSounds": true,

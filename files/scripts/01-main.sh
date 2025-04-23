@@ -2,6 +2,5 @@
 
 set -exuo pipefail
 
-dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
-
+dnf5 -y config-manager setopt "terra*".enabled=true
 rpm-ostree install -y xfce4-vala-panel-appmenu-plugin vala-panel-appmenu-gtk-module

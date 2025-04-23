@@ -11,9 +11,14 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: bling
+    install:
+    - rpmfusion
+
   - type: rpm-ostree
     install:
       - audacious
+      - broadcom-wl
       - plymouth-plugin-script
 
   - type: script

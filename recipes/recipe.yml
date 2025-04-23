@@ -3,7 +3,7 @@ name: blue9
 description: OS 9 in an atomic fashion
 
 base-image: ghcr.io/winblues/vauxite
-image-version: 41
+image-version: 42
 
 modules:
   - type: files

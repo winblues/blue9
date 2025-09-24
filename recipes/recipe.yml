@@ -18,7 +18,6 @@ modules:
 
   - type: script
     scripts:
-      #- 00-image-info.sh
       - 00-image-info.sh
       - 01-main.sh
       - 10-platinum9.sh
@@ -35,8 +34,6 @@ modules:
         - com.tomjwatson.Emote
         - org.geany.Geany
         - org.libreoffice.LibreOffice
-
-    user: {} # Also add Flathub user repo, but no user packages
 
   # Regenerate initramfs because of plymouth
   - type: initramfs

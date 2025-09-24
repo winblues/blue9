@@ -27,9 +27,10 @@ modules:
       - 90-finalize.sh
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      install:
+    configurations:
+      - notify: true # Send notification after install/uninstall is finished
+        scope: system
+        install:
         - org.mozilla.firefox
         - com.tomjwatson.Emote
         - org.geany.Geany

@@ -14,7 +14,7 @@ BUG_SUPPORT_URL="https://github.com/winblues/blue9/issues"
 IMAGE_INFO="/usr/share/ublue-os/image-info.json"
 IMAGE_REF="ostree-image-signed:docker://ghcr.io/$IMAGE_VENDOR/$IMAGE_NAME"
 
-FEDORA_MAJOR_VERSION=41
+FEDORA_MAJOR_VERSION=$(awk -F= '/VERSION_ID/ {print $2}' /etc/os-release)
 BASE_IMAGE_NAME="Xfce Atomic $FEDORA_MAJOR_VERSION"
 BASE_IMAGE="quay.io/fedora-ostree-desktops/xfce-atomic"
 
